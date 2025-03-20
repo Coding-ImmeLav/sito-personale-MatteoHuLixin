@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+}
+
+
+header{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8vh;
+    padding-left: 2%;
+    padding-right: 2%;
+    color: white;
+}
+
+.hero{
+    background-color: beige;
+    height: 92vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.lilitaone{
+    font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.anton{
+
+        font-family: "Anton", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    
+      
+}
+
+.quicksand{
+    font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 8px;
+  font-style: normal;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+
+#menu{
+    display: none;
+}
+
+
+footer{
+    height: 13vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logoscuola{
+    height: 13vh;
+    display: flex;
+    align-items: center;
+}
+.imgLogo{
+    height: 80%;
+}
+
+.info > a {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 10px,8px;
+    border-radius: 10px;
+}
