@@ -82,3 +82,10 @@ footer{
     padding: 10px,8px;
     border-radius: 10px;
 }
+
+
+footer > div {
+    width: 33.33333%;
+    display: flex;
+    justify-content: center;
+}

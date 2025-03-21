@@ -11,6 +11,6 @@ function compariMenu(){
 
     else if (a==1) {
         document.getElementById("menu").style.display = "none";
-        a==0;
+        a=0;
     }
 }
