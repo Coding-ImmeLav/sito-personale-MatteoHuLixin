@@ -79,7 +79,7 @@ footer{
     text-decoration: none;
     background-color: black;
     color: white;
-    padding: 10px,8px;
+    padding: 10px 8px;
     border-radius: 10px;
 }
 
@@ -88,4 +88,40 @@ footer > div {
     width: 33.33333%;
     display: flex;
     justify-content: center;
+}
+
+.inizio{
+    height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenitore{
+    width: 40%;
+    background-color: aquamarine;
+    height: 35%;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* animazione mouse su contenitori */
+
+.contenitore:hover{
+    background-color: steelblue;
+    transition: 0.3s;
+}
+
+.CV{
+    display: flex;
+    justify-content: center;
+}
+
+.curriculum{
+    width: 80%;
+    padding: 30px;
+    border: 1px solid black;
 }
