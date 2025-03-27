@@ -2,6 +2,9 @@ body{
     margin: 0;
 }
 
+html{
+    scroll-behavior: smooth;
+}
 
 header{
     background-color: cadetblue;
@@ -56,8 +59,15 @@ li{
 
 #menu{
     display: none;
+
+}
+.menu{
+    cursor: pointer;
 }
 
+.menu-lista > ul > li{
+    text-align: center;
+}
 
 footer{
     height: 13vh;
@@ -118,10 +128,46 @@ footer > div {
 .CV{
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .curriculum{
-    width: 80%;
+    width: 65%;
     padding: 30px;
     border: 1px solid black;
+}
+
+.intestazioone{
+text-align: center;
+}
+
+.fasciaDownload{
+    background-color: lightskyblue;
+    width: 100%;
+    height: 10vh;
+    margin-top: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Bottone{
+    background-color: white;
+    color: lightskyblue;
+    padding: 10px 20px;
+    border-radius: 15px;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+.Bottone:hover{
+    background-color: lightskyblue;
+    color: white;
+    border: 1px solid white;
+}
+.bonus{
+    height: 50vh;
 }
