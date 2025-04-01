@@ -171,3 +171,33 @@ a{
 .bonus{
     height: 50vh;
 }
+
+.testo{
+    width: 60%;
+    text-align: center;
+   
+}
+.intro-stage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.relazione-terza{
+    display: flex;
+}
+.sx , .dx {
+width: 50%;
+padding: 5%;
+display: flex;
+justify-content: start;
+align-items: center;
+flex-direction: column;
+}
+
+.immagine{
+    width: 80%;
+    padding: 3%;
+}
