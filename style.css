@@ -201,3 +201,7 @@ flex-direction: column;
     width: 80%;
     padding: 3%;
 }
+.relazione-secondo{
+    display: flex;
+    background-color: lightskyblue;
+}
