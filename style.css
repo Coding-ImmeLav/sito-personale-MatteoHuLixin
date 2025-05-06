@@ -200,8 +200,14 @@ flex-direction: column;
 .immagine{
     width: 80%;
     padding: 3%;
+    display: flex;
+    justify-content: center;
 }
 .relazione-secondo{
     display: flex;
     background-color: lightskyblue;
+}
+
+.sx > .quicksand{
+    margin-top: 150px;
 }
