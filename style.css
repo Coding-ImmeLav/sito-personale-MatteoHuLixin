@@ -141,7 +141,7 @@ footer > div {
     background-color: aquamarine;
     height: 60%;
     margin: 30px;
-    
+    background-image: url(img/Contenitore2.jpeg);
     justify-content: center;
     align-items: center;
 }
