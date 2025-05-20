@@ -147,7 +147,7 @@ footer > div {
 }
 .contenitore2{
     width: 40%;
-    background-color: aquamarine;
+    background-image: url(img/Contenitore3.jpeg);
     height: 60%;
     margin: 30px;
     
@@ -156,7 +156,7 @@ footer > div {
 }
 .contenitore3{
     width: 40%;
-    background-color: aquamarine;
+    background-image: url(img/Contenitore4.jpg);
     height: 60%;
     margin: 30px;
     
